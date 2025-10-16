@@ -1,4 +1,4 @@
-# 💰 Finance Domain Chatbot
+#  Finance Domain Chatbot
 
 An AI-powered conversational agent built with **FLAN-T5** that provides accurate, instant answers to finance-related questions. This chatbot leverages state-of-the-art transformer architecture to understand and respond to queries about investments, banking, personal finance, and financial concepts.
 
@@ -509,6 +509,20 @@ generation_config = {
 ## 🐛 Troubleshooting
 
 ### Common Issues and Solutions
+## ⚠️ Note on Model Files
+
+Due to file size constraints (990MB trained model exceeds GitHub's limits), 
+the trained model checkpoint is not included in this repository.
+
+**To reproduce the results:**
+1. Run cells 1-11 in the notebook (training takes ~25 minutes on GPU)
+2. The model will be saved to `./finance_chatbot_final/`
+3. Run cells 15-18 to launch the chatbot interface
+
+**Training Evidence:**
+- Training loss plots included in notebook (Cell 12)
+- ROUGE scores documented in Cell 14
+- Performance report included in repository
 
 #### Issue 1: Notebook Preview Not Loading on GitHub
 
