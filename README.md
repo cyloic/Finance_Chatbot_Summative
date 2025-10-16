@@ -622,7 +622,7 @@ model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-base")
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/cyloic)
+- GitHub: [@cyloic](https://github.com/cyloic)
 - Email: l.cyusa@alustudent.com
 ---
 
