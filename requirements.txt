@@ -1,0 +1,30 @@
+# Core Dependencies
+transformers==4.35.0
+datasets==2.14.0
+torch==2.1.0
+accelerate==0.24.0
+
+# Tokenization
+sentencepiece==0.1.99
+
+# Evaluation Metrics
+sacrebleu==2.3.1
+rouge-score==0.1.2
+
+# Web Interface
+gradio==4.7.1
+
+# Data Processing
+pandas==2.0.3
+numpy==1.24.3
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Machine Learning Utils
+scikit-learn==1.3.0
+tqdm==4.66.1
+
+# Optional: For specific hardware optimization
+# nvidia-cuda-runtime-cu11==11.8.89  # Uncomment if using CUDA 11
