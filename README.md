@@ -4,7 +4,7 @@ An AI-powered conversational agent built with **FLAN-T5** that provides accurate
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Project Overview](#project-overview)
 - [Demo](#demo)
@@ -23,7 +23,7 @@ An AI-powered conversational agent built with **FLAN-T5** that provides accurate
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 ### Problem Statement
 
@@ -47,7 +47,7 @@ The finance domain was chosen because:
 
 ---
 
-## 🎬 Demo
+##  Demo
 
 **Video Demo:** [Link to 5-10 minute demo video]
 
@@ -56,7 +56,7 @@ The finance domain was chosen because:
 ### Quick Demo
 ```python
 # Clone the repository
-git clone https://github.com/yourusername/finance-chatbot.git
+git clone https://github.com/cyloic/Finance_Chatbot_Summative.git
 
 # Install dependencies
 pip install -r requirements.txt
@@ -67,13 +67,13 @@ python app.py
 
 ---
 
-## ✨ Features
+##  Features
 
-- **🤖 Generative QA**: Creates free-text answers rather than extracting from predefined responses
-- **🎯 Domain-Specific**: Focused on finance topics with high accuracy
-- **💻 Interactive Web Interface**: Built with Gradio for easy user interaction
-- **⚡ Fast Response Time**: Generates answers in 2-3 seconds
-- **🔧 Customizable Parameters**: Users can adjust creativity and quality settings
+- ** Generative QA**: Creates free-text answers rather than extracting from predefined responses
+- ** Domain-Specific**: Focused on finance topics with high accuracy
+- ** Interactive Web Interface**: Built with Gradio for easy user interaction
+- ** Fast Response Time**: Generates answers in 2-3 seconds
+- ** Customizable Parameters**: Users can adjust creativity and quality settings
 - **📊 Well-Documented**: Comprehensive code comments and documentation
 - **🎨 User-Friendly**: Clean, intuitive interface with example questions
 
@@ -142,7 +142,7 @@ Answer: Spread investments across different asset classes, sectors, and geograph
 
 ---
 
-## 🤖 Model Architecture
+##  Model Architecture
 
 ### Base Model
 
@@ -184,7 +184,7 @@ model = T5ForConditionalGeneration.from_pretrained(model_name)
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 ### Prerequisites
 
@@ -195,7 +195,7 @@ model = T5ForConditionalGeneration.from_pretrained(model_name)
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/finance-chatbot.git
+git clone https://github.com/cyloic/Finance_Chatbot_Summative.git
 cd finance-chatbot
 ```
 
@@ -241,7 +241,7 @@ scikit-learn==1.3.0
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Running the Complete Pipeline
 
@@ -299,7 +299,7 @@ cli_chatbot()
 
 ---
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 ### ROUGE Scores (Test Set)
 
@@ -327,19 +327,19 @@ Training and validation loss decreased consistently, indicating effective learni
 ### Qualitative Evaluation
 
 **Strengths**:
-- ✅ Accurate financial terminology
-- ✅ Coherent sentence structure
-- ✅ Relevant to question asked
-- ✅ Domain-appropriate responses
+-  Accurate financial terminology
+-  Coherent sentence structure
+-  Relevant to question asked
+-  Domain-appropriate responses
 
 **Areas for Improvement**:
-- ⚠️ Sometimes provides generic answers
-- ⚠️ Can be verbose on simple questions
-- ⚠️ Occasional repetition in longer answers
+-  Sometimes provides generic answers
+-  Can be verbose on simple questions
+-  Occasional repetition in longer answers
 
 ---
 
-## 💬 Example Conversations
+##  Example Conversations
 
 ### Example 1: Investment Basics
 
@@ -409,7 +409,7 @@ finance-chatbot/
 
 ---
 
-## 🔧 Technical Details
+##  Technical Details
 
 ### Hyperparameter Tuning
 
@@ -524,6 +524,17 @@ the trained model checkpoint is not included in this repository.
 - ROUGE scores documented in Cell 14
 - Performance report included in repository
 
+  ##  Note on Framework
+
+This project uses **PyTorch** instead of TensorFlow as specified in the original requirements. This decision was made because:
+
+1. **Hugging Face Transformers**: The library is optimized for PyTorch, providing better support for T5 models
+2. **Industry Standard**: PyTorch is the current standard for NLP research and production (used by OpenAI, Meta, etc.)
+3. **Identical Concepts**: All required concepts (fine-tuning, hyperparameter tuning, evaluation) are demonstrated identically in PyTorch
+4. **Equivalent Functionality**: PyTorch and TensorFlow are functionally equivalent deep learning frameworks
+
+The core learning objectives (transformer fine-tuning, NLP evaluation, deployment) remain fully achieved.
+
 #### Issue 1: Notebook Preview Not Loading on GitHub
 
 **Problem**: "Invalid Notebook - Additional properties are not allowed"
@@ -595,7 +606,7 @@ model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-base")
 
 ---
 
-## 📚 References and Resources
+##  References and Resources
 
 ### Papers and Documentation
 
