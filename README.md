@@ -49,7 +49,7 @@ The finance domain was chosen because:
 
 ##  Demo
 
-**Video Demo:** [Link to 5-10 minute demo video]
+**Video Demo:** https://youtu.be/pxgBPszQvCQ 
 
 **Live Interface:** The chatbot is deployed via Gradio and provides an intuitive web interface for interaction.
 
